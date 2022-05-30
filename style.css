@@ -41,10 +41,12 @@ ul {
   margin: 0;
   padding: 0px;
 }
-li, h3 {
+li, 
+h3 {
   list-style: none;
 }
-input,button{
+input,
+button{
   outline: none;
 }
 .btn {
@@ -106,7 +108,11 @@ input,button{
   justify-content: space-between;
   align-items: center;
 }
-.task-list__item > .task-list__checkbox, .task-list__name, .task-list__task, .btn {
+.task-list__item > 
+.task-list__checkbox, 
+.task-list__name, 
+.task-list__task, 
+.btn {
   vertical-align: middle;
 }
 
@@ -132,7 +138,8 @@ input,button{
 }
 
 /* Completed */
-.task-list_completed .task-list__name {
+.task-list_completed 
+.task-list__name {
   text-decoration: line-through;
   color: #888;
 }
@@ -142,11 +149,13 @@ input,button{
   display: none;
 }
 
-.task-list__item_edit .task-list__task {
+.task-list__item_edit 
+.task-list__task {
   display: inline-block;
   width: 224px;
 }
 
-.task-list__item_edit .task-list__name {
+.task-list__item_edit 
+.task-list__name {
   display: none;
 }
