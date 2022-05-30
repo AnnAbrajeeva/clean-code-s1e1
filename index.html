@@ -21,8 +21,8 @@
     </a>
   </div>
   <div class="main">
-    <p class="tasks-section" id="add-task">
-      <label class="tasks-section__title tasks-section__title_new" for="new-task">Add Item</label>
+    <section class="tasks-section" id="add-task">
+      <h3 class="tasks-section__title tasks-section__title_new" for="new-task">Add Item</h3>
       <div class="new-task">
         <input
             id="new-task"
@@ -30,7 +30,8 @@
             type="text">
         <button class="btn new-task__btn">Add</button>
       </div>
-    </p>
+    </section>
+    <section class="tasks-section">
     <h3 class="tasks-section__title">Todo</h3>
     <ul class="task-list" id="incomplete-tasks">
       <li class="task-list__item">
@@ -51,6 +52,8 @@
           <img class="btn__img" src="./remove.svg"></button>
         </li>
       </ul>
+    </section>
+    <section class="tasks-section">
       <h3 class="tasks-section__title">Completed</h3>
       <ul class="task-list task-list_completed" id="completed-tasks">
         <li class="task-list__item">
@@ -63,6 +66,7 @@
           </button>
         </li>
       </ul>
+    </section>
     </div>
     <script src="app.js"></script>
 </body>
